@@ -1,5 +1,5 @@
 if [ -z "$TRAVIS_TAG" ]; then
-    VERSION=$TRAVIS_BRANCh-dev
+    VERSION=$TRAVIS_BRANCH-dev
 else
     VERSION=$TRAVIS_TAG
 fi
